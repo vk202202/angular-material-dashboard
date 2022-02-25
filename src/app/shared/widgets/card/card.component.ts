@@ -80,7 +80,7 @@ export class CardComponent implements OnInit {
       window.dispatchEvent(
         new Event('resize')
       );
-    }, 300);
+    }, 3000);
   }
 
 }
